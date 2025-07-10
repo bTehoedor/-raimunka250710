@@ -1,0 +1,70 @@
+body{
+    background-image: url("../cicak_forras/images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: grid;
+    font-size: 20px;
+    color: azure;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+a{
+    display: inline-block;
+    background-color: #de7000;
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+section{
+    text-align: center;
+}
+h1{
+    grid-area: h;
+}
+#btno{
+    grid-area: btno !important;
+    background-color: #de7000;
+    width: 300px !important;
+    height: 60px !important;
+    border-radius: 30px !important;
+}
+p{
+    grid-area: p;
+}
+#kint{
+    grid-area: k;
+}
+#bent{
+    
+    grid-area: b;
+}
+#jatek{
+    
+    grid-area: j;
+}
+#esemeny{
+    
+    grid-area: e;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #c85f00; /* optional hover background */
+}
+#btno{
+    text-align: center !important;
+
+}

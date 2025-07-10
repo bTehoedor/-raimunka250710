@@ -1,0 +1,18 @@
+body{
+    background-color: #00384e;
+    background-image: none;
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+}
+section{
+    display: block;
+}
+img{
+    border-radius: 30px;
+}

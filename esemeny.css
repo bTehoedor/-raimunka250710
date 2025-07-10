@@ -1,0 +1,44 @@
+body{
+    background-color: #00384e;
+    background-image: none;
+    text-align: center;
+}
+main{
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas: 
+    'head head'
+    'boxr1 boxr2'
+    ;
+    justify-content: center;
+    gap: 20%
+}
+.boxer{
+    background-color: #5c5c5c;
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+    text-align: left;
+    border: 5px solid #7a7a7a;
+}
+h1{
+    color: azure !important;
+    grid-area: head;
+    text-align: center !important;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+a{
+    text-align: center !important;
+    border: 5px solid #de7000;
+    background-color: #5c5c5c;
+}
+#boex1{
+    grid-area: boxr1;
+    
+}
+#boex2{
+    grid-area: boxr2;
+}

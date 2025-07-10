@@ -1,0 +1,25 @@
+body{
+    background-color: #00384e;
+    background-image: none;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'h h h'
+    'p p p'
+    'n1 n2'
+    ;
+}
+h1{
+    grid-area: h;
+}
+p{
+    grid-area: p;
+}
+#kint{
+    grid-area: n1;
+}
+#bent{
+    grid-area: n2;
+}
